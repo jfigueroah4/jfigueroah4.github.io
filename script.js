@@ -25,7 +25,7 @@ const catImages = [
 ];
 
 btnYes.addEventListener('click', () => {
-    titleElement.innerHTML = "Yayyy!! :3";
+    titleElement.innerHTML = "Yayyy!!, ahi te bañaas :3";
     catImage.src = './img/cat-yes.jpg';
     btnYes.style.display = 'none';
     btnNo.style.display = 'none';
