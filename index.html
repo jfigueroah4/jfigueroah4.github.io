@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola Yosi</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="preloader">
+    <div class="loader-content">
+      <img src="./img/snoopy.gif" alt="Snoopy" class="preloader-img">
+      <p>Yoselin espera un ratito...</p>
+    </div>
+  </div>
+
+  <div class="animated-background"></div>
+
+  <div class="snoopy-center">
+    <div class="message-bubble" id="message-bubble"></div>
+  </div>
+
+  <div class="calendar-container">
+    <div class="card" data-month="Agosto">
+      <img src="./img/1.jpg" alt="Agosto">
+      <h2>Agosto</h2>
+    </div>
+    <div class="card" data-month="Septiembre">
+      <img src="./img/2.jpg" alt="Septiembre">
+      <h2>Septiembre</h2>
+    </div>
+    <div class="card" data-month="Octubre">
+      <img src="./img/3.jpg" alt="Octubre">
+      <h2>Octubre</h2>
+    </div>
+    <div class="card" data-month="Noviembre">
+      <img src="./img/4.jpg" alt="Noviembre">
+      <h2>Noviembre</h2>
+    </div>
+    <div class="card" data-month="Diciembre">
+      <img src="./img/5.jpg" alt="Diciembre">
+      <h2>Diciembre</h2>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="cloud-modal">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <ul id="modal-comments"></ul>
+    </div>
+  </div>
+
+  <a href="https://wa.me/50256252922" target="_blank" class="whatsapp-btn">
+    <img src="./img/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+    Háblame :)
+  </a>
+
+
+  <div id="floating-snoopys"></div>
+
+  <div id="floating-messages" class="floating-messages"></div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
